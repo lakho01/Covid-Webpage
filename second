@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+a.one:link {color:#0000FF;}
+a.one:visited {color:#0000FF;}
+a.one:hover {color:#7FFF00;}
+
+  
+  </style>
+
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Our COVID-19 Learning Experience</h1>
+  <p>Welcome to our webpage!</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+      <button>
+        <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path>
+      </button>
+    </form>
+    <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.co.uk/search?q=';
+      const site = '';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Academic Experience</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">5 Top Tips</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Overall Thoughts</a>
+    </li>
+  </ul>
+  </li>
+       
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          COVID Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Book a test (UK only)</a>
+          <a class="dropdown-item" href="#">Test your eligibility for a vaccine (UK only)</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">NHS Website</a>
+        </div>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="margin-top:30px">
+      <h2>Our Academic Experience during COVID</h2>
+      <p>Having a laptop, PC or mobile phone in this world we live in now has become essential as it is the main form of communication used in schools and universities. The use of video communication apps like Microsoft Teams and Zoom have been very beneficial in delivering teaching to students, trying to bring about an alternative to that real feeling of having lectures in person. Zoom, for example, was released in 2012 and has been in widespread use on most operating systems. Although this pandemic has been a tragedy to us all, Zoom grew rapidly because of the number of students, teachers, employees and employers that moved onto this to carry out their various tasks and meetings.
+<br>
+<br>
+
+Studying online has being alien to both students and teachers, with the learning techniques and methods are constantly being updated and refined. Whilst staff are trying their very best, there is no doubt that the pandemic has affected and changed our learning experience to more ‘normal’ years. Many of us have been forced to self-isolate in university halls following government guidelines. Below is a video off how some off our fellow students felt during this difficult time:
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cH0xeTJhkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+
+We feel one the main factors that as affected us all has been the lack of social contact with our peers and teachers. Being in a lecture hall or studying in the library with your group is something which cannot be fully replicated online. Whilst zoom is the next best alternative, physical presence is something which we miss and took for granted. With a key part off university also being the social life, this has not been possible at all this year. This all prevents the ease off making friends which turn affects who you can study with and how you study. Breakout rooms on zoom make it easy for people to disengage, as most people leave their cameras off! Whilst the university and societies have taken measures to host social events online and try and replicate the university experience as much as possible, we still feel this not to be the same, and it to have affected us.
+<br>
+<br>
+Furthermore, during this very difficult period, mental and physical health has taken a big toll on us. Being locked inside, not meeting new people and having a rigorous workload can all build up and have a heavy strain on anyone. Studying online can sometimes feel like studying alone and all these effects off the lockdown do not help the situation. Feeling alone can directly affect your academics as it can course a lack of motivation to succeed. Mental health should be really taken care off and looked after, and if you ever want to speak to someone, you can email anxiety support by <a class="one" href="mailto:support@anxietyuk.org.uk" target="_blank">clicking here</a> or you can visit their website <a class="one" href="https://www.anxietyuk.org.uk/" target="_blank">Anxiety Support UK.</a>
+
+
+<br>
+<br>
+We have also compiled our top tips to help combat this and stay healthy, not just physically but also mentally. Click here to take you to the page! 
+<br>
+<br>
+
+</p>
+
+
+    
+
+
+</body>
+</html>
