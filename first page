@@ -73,10 +73,10 @@
           COVID Help
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Book a test (UK only)</a>
-          <a class="dropdown-item" href="#">Test your eligibility for a vaccine (UK only)</a>
+          <a class="dropdown-item" href="https://www.gov.uk/get-coronavirus-test">Book a test (UK only)</a>
+          <a class="dropdown-item" href="https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-vaccine/">Test your eligibility for a vaccine (UK only)</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">NHS Website</a>
+          <a class="dropdown-item" href="https://www.nhs.uk/">NHS Website</a>
         </div>
     </ul>
   </div>
